@@ -23,9 +23,8 @@
                     </div>
                 </div>
 
-                <table class="table table-bordered table-hover align-middle text-center"
-                        id="arsipTable"
-                        style="table-layout: fixed; width: 100%;">
+                <div class="table-responsive mt-4">
+                    <table class="table table-bordered table-hover align-middle text-center w-100" id="arsipTable">
                         <colgroup>
                             <col style="width: 45px;">
                             <col style="width: 120px;">
