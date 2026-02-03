@@ -3,7 +3,7 @@
 <html
   lang="en"
   class="layout-menu-fixed layout-compact"
-  data-assets-path="../assets/"
+  data-assets-path="{{ asset('assets') }}/"
   data-template="vertical-menu-template-free">
   <head>
     <meta charset="utf-8" />
@@ -71,7 +71,6 @@
     <script src={{asset('js/main.js')}}></script>
 
     <script src={{asset('js/dashboards-analytics.js')}}></script>
-    <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
   @stack('scripts')
   <style>
   body,
