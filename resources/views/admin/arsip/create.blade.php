@@ -1,5 +1,5 @@
-@extends('layout.adm')
-@section('layoutmin')
+@extends('layout.siarsip')
+@section('layoutsi')
     <main>
         <br/><br/>
         <div class="container-xxl px-3 px-md-4 px-lg-5">
