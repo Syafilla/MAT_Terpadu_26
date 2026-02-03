@@ -71,7 +71,6 @@
     <script src={{asset('js/main.js')}}></script>
 
     <script src={{asset('js/dashboards-analytics.js')}}></script>
-    <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
   @stack('scripts')
   <style>
   body,
